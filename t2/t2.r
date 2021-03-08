@@ -1,8 +1,9 @@
+# Statistical Inference
 ###############################################################
 ######################### 1º ##################################
 ###############################################################
-xbar <- 14.1; # mean from sample
-mu0 <- 15.4; # mean from population
+xbar <- 14.1; # sample mean
+mu0 <- 15.4; # population mean
 sigma <- 2; # SD
 n <- 35; # population size
 z <- (xbar - mu0) / (sigma / sqrt(n));
@@ -17,8 +18,8 @@ c(-z.half.alpha, z.half.alpha);
 ###############################################################
 ######################### 2º ##################################
 ###############################################################
-xbar <- 50; # mean from the sample
-mu0 <- 53; # mean from population
+xbar <- 50; # sample mean
+mu0 <- 53; # population mean
 sigma <- sqrt(16); #SD
 n <- 15; # population size
 z <- (xbar - mu0) / (sigma / sqrt(n));
