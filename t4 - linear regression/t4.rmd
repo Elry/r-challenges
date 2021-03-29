@@ -1,6 +1,7 @@
 ---
 title: "Data Science - Aprofundamento: trilha 4"
 author: "Rafael Garcia de Lima"
+subtitle: "Linear Regression"
 date: '2021'
 output:
   pdf_document: default

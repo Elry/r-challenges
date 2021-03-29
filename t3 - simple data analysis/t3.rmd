@@ -1,7 +1,20 @@
-# Rafael Garcia: Aprofundamento - Trilha 3
+---
+title: "Data Science - Aprofundamento: trilha 3"
+author: "Rafael Garcia de Lima"
+subtitle: "Simple Data Analysis"
+date: '2021'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## Libraries
-```{r}
+```{r warning=FALSE, message=FALSE}
 library(dplyr);
 library(ggplot2);
 ```
