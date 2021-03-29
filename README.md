@@ -16,7 +16,8 @@ $R --quiet
 $Rscript -e "update.packages(ask=FALSE, checkBuilt=TRUE, repos=c('http://cran.rstudio.org'))"
 ```
 
-## 
+## Correcting data before import
 ```bash
-rmarkdown::render();
+library(readr)
+autos <- read_delim("datasets/autos.csv", ";", escape_double = FALSE, locale = locale(decimal_mark = ","), trim_ws = TRUE);
 ```
